@@ -194,3 +194,12 @@ prompt_spaceship_setup() {
 
 # Pass all arguments to the spaceship_setup function
 prompt_spaceship_setup "$@"
+
+# Display time
+SPACESHIP_TIME_SHOW=false
+# Display username always
+SPACESHIP_USER_SHOW=false
+# 目录显示的数量
+SPACESHIP_DIR_TRUNC=1
+# 是否显示尚未呈现部分的占位符 default："..."
+SPACESHIP_ASYNC_SHOW=false
