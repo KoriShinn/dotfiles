@@ -53,6 +53,7 @@ alias gbd='git branch -d'
 
 # 将本地多次commit合并成一次commit
 alias grb='git rebase'
+alias grbc='git rebase --continue'
 
 alias gl='git log'
 alias glo='git log --oneline --graph'
